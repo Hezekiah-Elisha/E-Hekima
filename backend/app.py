@@ -3,7 +3,9 @@ from flask_cors import CORS
 
 app = Flask(__name__)
 
-@app.route('/api/hello', methods=['GET'])
+CORS(app)
+
+@app.route('/', methods=['GET'])
 def hello_world():
     return jsonify(message='Hello, World!'), 200
 
