@@ -9,53 +9,32 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <div class="container-fluid">
-            <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Property</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Agent</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="mx-auto order-0 d-flex justify-content-between">
-                <a class="navbar-brand mx-auto" href="#">E-Hekima</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".dual-collapse2">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-            <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <button class="btn mybtns">Place your property</button>
-                        </a>
-                    </li>
-                    <li class="nav-item d-flex align-items-center">
-                        <a class="nav-link" href="login.html">
-                            Login
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div main="space">
-        <img src="./images/denis-degioanni-9wH624ALFQA-unsplash.jpg" alt="" class="img-responsive">
-    </div>
-
-    <h1>Hezekiah Elisha</h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id blanditiis, praesentium unde magni autem ea ullam quia illum nulla dolores necessitatibus tempore modi quisquam hic placeat dolorem nobis nemo mollitia?</p>
+<body class="home-body">
+    <h1 class="text-center">Welcome to E-Hekima</h1>
+    <main class="form-signin m-auto home">
+        <form>
+          <!-- <img class="mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57"> -->
+          <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+      
+          <div class="form-floating">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+          </div>
+      
+          <!-- <div class="checkbox mb-3">
+            <label>
+              <input type="checkbox" value="remember-me"> Remember me
+            </label>
+          </div> -->
+          <button class="w-100 btn btn-lg" type="submit">Sign in</button>
+          <!-- <p class="mt-5 mb-3 text-muted">&copy; 2017–2022</p> -->
+          <p class="text-center form-p"> You don't have an account yet? Kindly <a href="">Sign up here</a></p>
+        </form>
+      </main>
 
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/script.js"></script>
